@@ -4,3 +4,23 @@
     box-sizing: border-box;
 }
 
+
+div.col,
+div.col-green{
+    background-color: #006CFA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: .6rem 0;
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+div.col-green{
+    background-color: lime;
+    border: 1px solid #006CFA;
+}
+
