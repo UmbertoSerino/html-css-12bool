@@ -12,9 +12,17 @@ div.col{
 }
 
 div.col-green{
-    background-color: lime;
-    border: 1px solid #006CFA;
+    height: 100%;
+}
 
+div.col-green p{
+    background-color: lime;
+    width: 99%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div.col-white{
