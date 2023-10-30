@@ -4,15 +4,21 @@
     box-sizing: border-box;
 }
 
-div.col{
+
+[class*="col-"] {
     background-color: #006CFA;
     font-size: .7rem;
     border: 1px solid white;
     height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.col-green{
     height: 100%;
+    border: 1px solid #006CFA;
 }
 
 div.col-green p{
@@ -24,19 +30,4 @@ div.col-green p{
     align-items: center;
     justify-content: center;
 }
-
-div.col-white{
-    background-color: white;
-}
-
-div.col,
-div.col-green{
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    flex-basis: 0;
-}
-
 

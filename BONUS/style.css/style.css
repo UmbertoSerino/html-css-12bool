@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+}
+
+div [class*="col-"] {
+    height: 80px;
+    color: white;
+    background-color: yellow;
+}
+
+div.col{
+    width: 100%;
+}
+
+.col-green{
+    background-color: green;
+}
+
+.col-yellow{
+    background-color: yellow;
+}
+
+.col-red{
+    background-color: red;
+}
+
+.col-brown{
+    background-color: brown;
+}
